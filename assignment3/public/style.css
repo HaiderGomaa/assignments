@@ -1,0 +1,190 @@
+body{
+    background-color: blueviolet;
+}
+h2{
+background-color: gray;
+color: #fff;
+font-size: 28px;
+border-radius: 10px;
+}
+button{
+    width: 300px;
+    height: 45px;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+}
+.header{
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: .7;
+    background-color:blanchedalmond ;
+
+}
+/* .header a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 20px;
+} */
+.hesdti{
+    margin-top: 70px;
+    background-color: black;
+}
+.header1 a{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.footer{
+    position: relative;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #FFEFBA;
+    margin-top: 100px;
+}
+
+.accounts{
+    position: absolute;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* margin-top: 80px; */
+}
+
+/* .end{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 530px;
+    background-color: #e483172e;
+    border-radius: 50px;
+} */
+
+.accounts-ul{
+    padding-left: 25px;
+}
+
+.accounts-ul li{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.accounts a{
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 15px;
+    font-size: xx-large;
+    color: aliceblue;
+    z-index: 1;
+}
+
+.accounts p{
+    /* color: aliceblue; */
+    text-transform: uppercase;
+    padding-top: 40px;
+    /* padding-left: 15px; */
+}
+
+.face{
+    background-color: #1877F2;
+    border: solid aliceblue;
+    outline: solid #1877F2;
+}
+
+.fbok{
+    padding-left: 3px;
+    color: aliceblue;
+}
+
+.twit{
+    background-color: #1DA1F2;
+    border: solid aliceblue;
+    outline: solid #1DA1F2;
+}
+
+.twtr{
+    color: aliceblue;
+}
+
+.linkd{
+    background-color: #0077b5;
+    border: solid aliceblue;
+    outline: solid #0077b5;
+}
+
+.lkdn{
+    color: aliceblue;
+}
+
+.ytb{
+    background-color: #FF0000;
+    border: solid aliceblue;
+    outline: solid #FF0000;
+}
+
+.ytub{
+    margin-left: -5px;
+    margin-top: -2px; 
+    color: aliceblue;
+}
+
+.isgrm{
+background-color: #0077b5;
+border: solid aliceblue;
+outline: solid #c471ed;
+}
+
+.itgm{
+    color:aliceblue ;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+
+.gog{
+    background-color:green ;
+    border: solid aliceblue;
+    outline: solid #DB4437;
+}
+
+.gle{
+    color: aliceblue;
+    margin-left: -3px;
+    margin-top: -2px;
+}
+
+.accounts-ul li::after {
+    position: absolute;
+    content: "";
+
+    background-color: aliceblue;
+
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    transition: 0.1s;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.accounts-ul li:hover::after{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
